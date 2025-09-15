@@ -8,3 +8,37 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #d5def5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 50px;
+}
+
+.hello {
+    width: 500px;
+    height: 300px;
+    border: none;
+    border-radius: 50px;
+    font-size: 80px;
+    cursor: pointer;
+    background-color: #8594e4;
+    color: #efefef;
+}
+
+.hello:hover {
+    background-color: #444;
+    transition: 300ms;
+}
