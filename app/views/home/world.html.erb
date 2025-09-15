@@ -1,1 +1,6 @@
-<h1>Testing</h1>
+<%= content_tag :div, class: "container" do %>
+    <%= content_tag :p, "Hello, world!", class: "world" %>
+    <%= content_tag :div, class: "shadow" do %>
+        <%= button_to "Ok", index_path, method: :get, class: "ok" %>
+    <% end %>
+<% end %>

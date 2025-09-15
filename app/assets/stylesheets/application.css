@@ -28,17 +28,38 @@ body {
 }
 
 .hello {
-    width: 500px;
-    height: 300px;
+    width: 250px;
+    height: 125px;
     border: none;
     border-radius: 50px;
-    font-size: 80px;
+    font-size: 60px;
     cursor: pointer;
     background-color: #8594e4;
     color: #efefef;
 }
 
 .hello:hover {
+    background-color: #444;
+    transition: 300ms;
+}
+
+.world {
+    font-size: 100px;
+    color: #444;
+}
+
+.ok {
+    width: 200px;
+    height: 75px;
+    border: none;
+    border-radius: 50px;
+    font-size: 40px;
+    cursor: pointer;
+    background-color: #8594e4;
+    color: #efefef;
+}
+
+.ok:hover {
     background-color: #444;
     transition: 300ms;
 }
